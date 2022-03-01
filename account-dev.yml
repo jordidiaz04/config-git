@@ -7,7 +7,7 @@ application:
 spring:
   data:
     mongodb:
-      database: project1
+      database: mongodb
       port: '27017'
       host: localhost
 
@@ -15,13 +15,4 @@ logging:
   level:
     root: info
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-  endpoint:
-    shutdown:
-      enable: 'true'
-    health:
-      show-details: always
+
