@@ -1,0 +1,5 @@
+application:
+  location: config (Local)
+  config:
+    profile: qa
+    description: valor obtenido desde 'account-qa.yml'

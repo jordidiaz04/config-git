@@ -1,0 +1,27 @@
+application:
+  location: config (Local)
+  config:
+    profile: dev
+    description: valor obtenido desde 'account-dev.yml'
+
+spring:
+  data:
+    mongodb:
+      database: project1
+      port: '27017'
+      host: localhost
+
+logging:
+  level:
+    root: info
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    shutdown:
+      enable: 'true'
+    health:
+      show-details: always

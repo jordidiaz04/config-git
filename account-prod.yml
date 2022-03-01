@@ -1,0 +1,5 @@
+application:
+  location: config (Local)
+  config:
+    profile: prod
+    description: valor obtenido desde 'account-prod.yml'
