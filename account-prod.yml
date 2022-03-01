@@ -7,7 +7,7 @@ application:
 spring:
   data:
     mongodb:
-      database: mongobd
+      database: accounts
       port: '27017'
       host: localhost
 
