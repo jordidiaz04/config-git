@@ -1,0 +1,18 @@
+application:
+  location: config (GitHub)
+  config:
+    profile: dev
+    description: valor obtenido desde 'transaction-dev.yml'
+
+spring:
+  data:
+    mongodb:
+      database: mongobd
+      port: '27017'
+      host: localhost
+
+logging:
+  level:
+    root: info
+
+
