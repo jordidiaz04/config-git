@@ -1,8 +1,8 @@
 application:
   location: config (GitHub)
   config:
-    profile: prod
-    description: valor obtenido desde 'account-prod.yml'
+    profile: qa
+    description: valor obtenido desde 'transaction-qa.yml'
 
 spring:
   data:

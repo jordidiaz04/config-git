@@ -1,5 +1,16 @@
 application:
-  location: config (Local)
+  location: config (GitHub)
   config:
     profile: qa
     description: valor obtenido desde 'account-qa.yml'
+
+spring:
+  data:
+    mongodb:
+      database: mongobd
+      port: '27017'
+      host: localhost
+
+logging:
+  level:
+    root: info

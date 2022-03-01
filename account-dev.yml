@@ -1,5 +1,5 @@
 application:
-  location: config (Github)
+  location: config (GitHub)
   config:
     profile: dev
     description: valor obtenido desde 'account-dev.yml'
@@ -14,5 +14,3 @@ spring:
 logging:
   level:
     root: info
-
-
