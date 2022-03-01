@@ -1,0 +1,16 @@
+application:
+  location: config (GitHub)
+  config:
+    profile: prod
+    description: valor obtenido desde 'clients-prod.yml'
+
+spring:
+  data:
+    mongodb:
+      database: clients
+      port: '27017'
+      host: localhost
+
+logging:
+  level:
+    root: info

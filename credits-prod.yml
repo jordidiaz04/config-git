@@ -1,0 +1,16 @@
+application:
+  location: config (GitHub)
+  config:
+    profile: prod
+    description: valor obtenido desde 'credits-prod.yml'
+
+spring:
+  data:
+    mongodb:
+      database: credits
+      port: '27017'
+      host: localhost
+
+logging:
+  level:
+    root: info
