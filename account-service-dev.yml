@@ -2,7 +2,7 @@ application:
   location: config (GitHub)
   config:
     profile: dev
-    description: valor obtenido desde 'account-dev.yml'
+    description: valor obtenido desde 'account-service-dev.yml'
 
 spring:
   data:
