@@ -1,8 +1,8 @@
 application:
   location: config (GitHub)
   config:
-    profile: dev
-    description: valor obtenido desde 'transaction-dev.yml'
+    profile: qa
+    description: valor obtenido desde 'transaction-service-qa.yml'
 
 spring:
   data:

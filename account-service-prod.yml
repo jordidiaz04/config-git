@@ -1,13 +1,13 @@
 application:
   location: config (GitHub)
   config:
-    profile: qa
-    description: valor obtenido desde 'transaction-qa.yml'
+    profile: prod
+    description: valor obtenido desde 'account-service-prod.yml'
 
 spring:
   data:
     mongodb:
-      database: transactions
+      database: accounts
       port: '27017'
       host: localhost
 
