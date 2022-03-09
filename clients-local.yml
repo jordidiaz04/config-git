@@ -9,7 +9,7 @@ spring:
     mongodb:
       database: clients
       port: '27017'
-      host: mongo_db
+      host: localhost
 
 logging:
   level:
