@@ -1,8 +1,8 @@
 application:
   location: config (GitHub)
   config:
-    profile: dev
-    description: valor obtenido desde 'clients-dev.yml'
+    profile: local
+    description: valor obtenido desde 'clients-local.yml'
 
 spring:
   data:

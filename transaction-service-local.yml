@@ -1,15 +1,15 @@
 application:
   location: config (GitHub)
   config:
-    profile: prod
-    description: valor obtenido desde 'transaction-service-prod.yml'
+    profile: local
+    description: valor obtenido desde 'transaction-service-local.yml'
 
 spring:
   data:
     mongodb:
       database: transactions
       port: '27017'
-      host: mongo_db
+      host: localhost
 
 logging:
   level:
