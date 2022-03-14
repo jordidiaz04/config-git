@@ -1,0 +1,16 @@
+application:
+  location: config (GitHub)
+  config:
+    profile: local
+    description: valor obtenido desde 'fees-local.yml'
+
+spring:
+  data:
+    mongodb:
+      database: fees
+      port: '27017'
+      host: localhost
+
+logging:
+  level:
+    root: info

@@ -1,0 +1,16 @@
+application:
+  location: config (GitHub)
+  config:
+    profile: prod
+    description: valor obtenido desde 'reports-prod.yml'
+
+spring:
+  data:
+    mongodb:
+      database: reports
+      port: '27017'
+      host: mongo_db
+
+logging:
+  level:
+    root: info
